@@ -249,3 +249,103 @@ button:hover{
     font-weight: 400;
     letter-spacing: -.5px;
 }
+
+
+.page6{
+    width: 100%;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+   
+    background-color: #5ff6a0;
+    color: #000;
+
+}
+  .page6 header {
+    position: relative;
+    height: 50vh;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    gap: 0.5rem;
+    font: 1rem helvetica,sans-serif;
+  }
+  .page6 header   p {
+      font-size: 0.8rem;
+      font-style: italic;
+    }
+
+    .page6 header span {
+      position: absolute;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateY(-50%);
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+    }
+
+footer {
+  z-index: 0;
+  width: 100%;
+  background-color: #2f322f;
+  font-size: .8vw;
+  color: rgba(255,255,255,0.5);
+  display: flex;
+  justify-content: center;
+  padding: 3vw 8vw;
+}
+footer header {
+    width: 100%;
+    position: relative;
+    gap: 1vw;
+}
+
+footer header h2 {
+      position: relative;
+      text-transform: uppercase;
+}
+
+
+footer header p {
+      line-height: 1.8;
+      color: rgba(255,255,255,0.5);
+    }
+
+    footer header .icon {
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem 0.25rem 0;
+      cursor: pointer;
+      color: rgb(86, 177, 187);
+    }
+
+    .icon:hover {
+        animation: pulse 0.5s;
+        color:  #5ff6a0;
+      }
+    
+
+   aside {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+    padding: 0 2vw;
+   }
+    aside ul {
+      list-style-type: none;
+    }
+      aside li {
+        padding: 0.5vw 0;
+        cursor: pointer;
+      }
+        li:hover:not(:first-of-type) {
+          animation: pulse 0.5s;
+          color:  #5ff6a0;
+        }
+      
+h3{
+    color: rgba(255,255,255,0.85);
+    font-size: 1.2vw;
+}
